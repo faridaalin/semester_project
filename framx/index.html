@@ -7,11 +7,11 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="description" content="A cross-platform mobile app company from Norway">
     <meta name="keywords" content="App development, React Native, Xamarin">
-    <link rel="stylesheet" href="stylesheet.css" type="text/css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
-        integrity="sha256-l85OmPOjvil/SOvVt3HnSSjzF1TUMyT9eV0c2BzEGzU=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/stylesheet.css" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500|Montserrat:400,600,700&display=swap"
         rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel='stylesheet' id='fontawesome-css' href='https://use.fontawesome.com/releases/v5.0.1/css/all.css?ver=4.9.1'
         type='text/css' media='all' />
     <meta name="author" content="Farida Alin">
@@ -20,14 +20,14 @@
 
 <body>
     <header class="header" id="header">
-        <div class="navigation">
-            <div class="logo">
-                <a href="index.html" class="mobile-logo"><img src="img/mobile_logo@2x.png"
-                        alt="Fram X logo for in desktop size"></a>
-                <a href="index.html" class="desktop-logo"><img src="img/desktop_logo@2x.png"
-                        alt="Fram X logo for in mobile size"></a>
-            </div>
+        <div class="inner-header">
             <nav>
+            <div class="logo-container">
+                <a href="index.html" class="logo"><img src="img/desktop_logo@2x.png"
+                        alt="Fram X logo"></a>
+            </div>
+           
+                <i class="material-icons" id="hamburger">menu</i>
                 <ul class="box">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#services">Services</a></li>
@@ -69,14 +69,15 @@
                 <div class="img-container"> </div>
 
                 <div class="card-container">
-                    <div class="cards">
                         <div class="card">
+                            <i class="material-icons" id="devices">devices</i>
                             <h3>Cross-Platform</h3>
                             <p>We build apps for iOS, Android and Windows 10 and more with the latest and
                                 greatest
                                 cross-platform tools. Native with proper performance.</p>
                         </div>
                         <div class="card">
+                            <i class="material-icons" id="apps">apps</i>
                             <h3>User-Experience</h3>
                             <p>We don’t compromise on user experience. We focus on user-centered design and
                                 service
@@ -84,18 +85,19 @@
                                 and we iterate and test with the real users.</p>
                         </div>
                         <div class="card">
+                            <i class="material-icons" id="assignment">assignment</i>
                             <h3>Minimal Viable Product</h3>
                             <p>We are simply great at delivering minimal viable products (MVPs) fast,
                                 efficient with
                                 great
                                 quality. A MVP is a production ready app or solution ready for use.</p>
                         </div>
-                    </div>
+                  
 
 
-                    <div class="cards">
                         <div class="card">
-                            <h3>Years Of Experience - <br> Born Explorers</h3>
+                            <i class="material-icons" id="explore">explore</i>
+                            <h3>Years Of Experience - Born Explorers</h3>
                             <p>Our years of experience with startups, to enterprise in mobile to cloud will
                                 provide
                                 you the
@@ -106,6 +108,7 @@
                             </p>
                         </div>
                         <div class="card">
+                            <i class="material-icons" id="people_alt">people_alt</i>
                             <h3>Work Together</h3>
                             <p>We are personal and we want to get to know. You are important to us and we
                                 work
@@ -113,6 +116,7 @@
                                 build your next mobile solution.</p>
                         </div>
                         <div class="card">
+                            <i class="material-icons" id="verified">verified</i>
                             <h3>Technology</h3>
                             <p>We to stay up-to-date on the latest cross-platform mobile technologies
                                 and
@@ -120,7 +124,7 @@
                                 knowledge. Today many of our projects are based on React Native and Xamarin
                                 technology.</p>
                         </div>
-                    </div>
+
                 </div>
             </div>
         </section>
@@ -162,11 +166,11 @@
         </section>
 
         <section class="section-4" id="aboutus">
-            <div class="img-container-4"></div>
+           
             <div class="container">
 
                 <h2>About us</h2>
-
+                <div class="img-container"></div>
                 <div class="aboutus-container">
                     <div class="aboutus-intro">
                         <p>Fram X is a startup with long time professionals. In 2017 we decided to it was time for
@@ -278,7 +282,7 @@
         </div>
         <p>All rights reserved &copy; Fram X</p>
     </footer>
-
+<script src="js/app.js"></script>
 </body>
 
 </html>
