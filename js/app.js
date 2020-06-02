@@ -11,7 +11,7 @@ mobileMenu()
 
 window.onload = changeImageOnLoad;
 
-const imgArray = ['../img/sunset.png', '../img/birdsview.png', '../img/branch.png'];
+const imgArray = ['./img/sunset.png', './img/birdsview.png', './img/branch.png'];
 const imgArrayLength = imgArray.length
 
 
