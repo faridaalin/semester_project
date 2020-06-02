@@ -95,7 +95,7 @@ figcaption {
   text-decoration: none;
   font-weight: 500;
   padding-top: 1.5rem;
-  color: #313235;
+  color: #f4f7f5;
   font-size: 1rem;
 }
 
@@ -476,11 +476,6 @@ cite {
   padding-top: 4rem;
 }
 
-.social-media img {
-  width: 7%;
-  cursor: pointer;
-}
-
 .about p {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -539,6 +534,14 @@ cite {
 
 .social-media {
   padding: 2% 5%;
+}
+.social-media i, .footer-icons i {
+  font-size: 1.5rem;
+  color: #313235;
+  transition: color 0.3s ease-in;
+}
+.social-media i:hover, .footer-icons i:hover {
+  color: #0051ff;
 }
 /* END aboutus */
 
@@ -647,13 +650,6 @@ footer p {
     .profile-img {
       width: 30%;
     }
-  
-    .social-media img {
-      width: 6%;
-    }
-
-  
-  
   
     /* footer */
     footer {
@@ -945,10 +941,6 @@ footer p {
     .social-media {
       position: absolute;
       bottom: 0;
-    }
-  
-    .social-media img {
-      width: 9%;
     }
     /* END aboutus */
   
