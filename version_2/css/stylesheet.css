@@ -302,13 +302,11 @@ h1 span:nth-child(2) {
 }
 
 .intro-wrapper p {
-  padding: 0;
+  padding: 0 5%;
   color: #f4f7f5;
+  line-height: 2;
 }
 
-.intro-wrapper p {
-  padding: 0 5%;
-}
 
 .intro-wrapper a {
   padding: 1.5rem 0 5% 5%;
@@ -788,6 +786,10 @@ footer p {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center;
+    }
+
+    .main-intro-wrapper {
+      padding: 0 5%;
     }
 
     .intro-wrapper {
